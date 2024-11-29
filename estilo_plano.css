@@ -4,9 +4,8 @@ body {
     text-align: center;
     margin: 20px;
 
-    /* Adicionando a imagem de fundo */
     background: url('fundo_img_png.png') no-repeat center center/cover;
-    color: #fff; /* Para garantir boa visibilidade do texto */
+    color: #fff;
 }
 
 h1 {
@@ -17,6 +16,7 @@ h1 {
     max-width: 900px;
     margin: 0 auto;
     overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(251, 155, 0, 0.944);
 }
 
 table {
@@ -26,19 +26,19 @@ table {
 }
 
 th, td {
-    border: 1px solid rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255);
     padding: 15px;
     text-align: center;
 }
 
 th {
-    background-color: #39353500;
+    background-color: #ff4400;
     font-weight: bold;
 }
 
 .highlight {
-    background-color: #020202;
-    border: 2px solid rgb(200, 199, 199);
+    background-color: #000000;
+    border: 2px solid rgb(246, 243, 243);
 }
 
 .check {
@@ -55,7 +55,7 @@ th {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: #2393f5c6;
+    background-color: #023a6bc6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -64,5 +64,5 @@ th {
 }
 
 .button:hover {
-    background-color: #2393f5c6;
+    background-color: #00000090;
 }

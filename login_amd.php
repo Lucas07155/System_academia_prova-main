@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Aluno da Academia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo_login_adm.css">
+    <link rel="stylesheet" href="estilo_login_aluno.css">
 </head>
 <body>
 <div class="login-container">
-    <h1>Login</h1>
-    <p>Se você é membro da super fit, insira seus dados:</p>
+    <h1>Login do amd</h1>
+    <p>Ola amd seja bem-vindo de volta:</p>
     <form>
       <div class="form-group">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" placeholder="E-mail, CPF ou nome de usuário" required>
+        <label for="usuario">E-mail:</label>
+        <input type="usuario" id="usuario" placeholder=" nome de usuário" required>
       </div>
       <div class="form-group">
         <label for="password">Senha:</label>
@@ -29,9 +29,6 @@
     <div class="form-links">
       <p>
         Esqueceu sua senha? <a href="#">Clique aqui para redefinir</a>.
-      </p>
-      <p>
-        Ainda não tem conta? <a href="cadastrar_aluno.php">Cadastre-se</a>.
       </p>
     </div>
   </div>
