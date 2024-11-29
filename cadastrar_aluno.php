@@ -19,7 +19,7 @@
         <?php elseif (isset($_GET['erro'])): ?>
             <div class="alert alert-danger"><?php echo $_GET['erro']; ?></div>
         <?php endif; ?>
-        <form action="" method="POST">
+        <form action="processar_cadastro_aluno.php" method="POST">
         <div class="form-group">
                 <label for="cpf">CPF</label>
                 <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu documento" required>
